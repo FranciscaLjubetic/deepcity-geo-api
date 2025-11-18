@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fondo circular -->
+  <circle cx="50" cy="50" r="48" fill="#4F46E5" stroke="#312E81" stroke-width="2"/>
+  
+  <!-- Icono de persona en silla de ruedas (accesibilidad) -->
+  <g fill="#FFFFFF">
+    <!-- Cabeza -->
+    <circle cx="55" cy="30" r="8"/>
+    
+    <!-- Cuerpo y ruedas -->
+    <path d="M 45 50 Q 50 40, 60 45 L 62 55 Q 50 58, 45 50 Z"/>
+    
+    <!-- Rueda grande -->
+    <circle cx="50" cy="65" r="15" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="50" cy="65" r="3" fill="#FFFFFF"/>
+    
+    <!-- Rueda pequeña -->
+    <circle cx="70" cy="55" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="70" cy="55" r="2" fill="#FFFFFF"/>
+    
+    <!-- Pin de ubicación (pequeño) -->
+    <path d="M 25 35 Q 25 25, 30 25 Q 35 25, 35 35 Q 30 42, 30 42 Q 30 42, 25 35 Z" fill="#10B981"/>
+    <circle cx="30" cy="31" r="2" fill="#FFFFFF"/>
+  </g>
+</svg>
